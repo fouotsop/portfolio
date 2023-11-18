@@ -26,7 +26,7 @@ import "./styles.css";
 const siteProps = {
   name: "Fouotsop Fosso Patrick",
   title: "Web Developer",
-  email: "patrickfosso49@facsciences-uy1.cm",
+  email: "patrick.fouotsop@facsciences-uy1.cm",
   gitHub: "fouotsop",
   instagram: "",
   linkedIn: "patrick-fouotsop-fosso-0613bb279",
