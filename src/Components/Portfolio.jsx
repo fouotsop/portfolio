@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Developing a console dictionary using C",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Beginner friendly article providing an implementation of a console dictionary in C.",
+    url: "https://iq.opengenus.org/console-dictionary-in-c/",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Python script to search the web using google search engine",
+    description: "This article describes a python script used to search the web on a console.",
+    url: "https://iq.opengenus.org/python-script-to-search-web/",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "System design - Open Closed Principle",
+    description: "This article describes the Open Closed Principle in system design.",
+    url: "https://iq.opengenus.org/open-closed-principle/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Deploying a simple blog application with kubernetes",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A GitHub repository which describes how to deploy a simple blog microservice application with a react.js client and node.js microservices on kubernetes a cluster.",
+    url: "https://github.com/fouotsop/blog",
   },
 ];
 
