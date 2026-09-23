@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+@import "variables";
+
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a :visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", "Montserrat", sans-serif;
+  font-size: 1rem;
+
+  @include mobile {
+    font-size: small;
+  }
+}
+
+nav a {
+  font-weight: condensed;
+  font-family:
+    "times new roman",
+    "roboto" sans-serif;
+  font-size: 1rem;
+  font-weight: regular;
+
+  @include mobile {
+    font-size: small;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: $secondary-color;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  padding: 1rem $page-horizontal-margin;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.logo {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: regular;
+  flex: 3;
+
+  @include mobile {
+    font-size: medium;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $secondary-color;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 95vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80vh;
+}
